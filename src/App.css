@@ -1,12 +1,35 @@
-.App {
-  text-align: center;
+.app-loading{
+  display: flex;
+  justify-content: center;
+  margin-top: 100px;
+  align-items: center;
+  color: red;
 }
-
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
+.refresh{
+  text-decoration: underline !important;
+  text-transform: lowercase !important;
+  color: red !important;
 }
-
+.app-span{
+  margin: 0px 7px;
+}
+.search{
+  padding: 1rem;
+}
+.search__label{
+  display: block;
+  font-size: 25px;
+  font-weight: bold;
+  margin-bottom: 1rem;
+}
+.filter{
+  padding: 1rem;
+}
+.navbtn{
+  padding: 1rem;
+  display: flex;
+  justify-content: space-between;
+}
 @media (prefers-reduced-motion: no-preference) {
   .App-logo {
     animation: App-logo-spin infinite 20s linear;
